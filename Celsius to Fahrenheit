@@ -1,0 +1,10 @@
+#Python Program to Convert Celsius To Fahrenheit
+
+"""take a input from user"""
+a=float(input("enter the celcius Temprature \n"))
+
+"""use opration to change celcius to Fahrenheit"""
+F = (9/5)*a+32.
+
+"""print Fahrenheit"""
+print(f"{a} Celsius means {F} Fahrenheit")
