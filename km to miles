@@ -1,0 +1,10 @@
+#Python Program to Convert Kilometers to Miles
+
+"""take a input from user"""
+a=float(input("enter the kilo meters \n"))
+
+"""use opration to change kilometer to miles"""
+b=a*0.62137
+
+"""print miles"""
+print(f"{a} kilometers means {b} miles")
