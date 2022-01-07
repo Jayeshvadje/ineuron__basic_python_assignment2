@@ -1,0 +1,12 @@
+#Python program to swap two variables without temp variable
+
+#take a input from user
+a=float(input("enter first number\n"))
+b=float(input("enter second number\n"))
+
+#print the numbers before swapping
+print(f"numbers before swapping\n a = {a} \n b = {b}")
+
+#now use python inbuilt method to swap numbers
+a,b=b,a
+print(f"numbers after swapping\n a = {a} \n b = {b}")
